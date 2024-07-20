@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <nav className='navbar'>
       <div>
-        <img src={image1} alt="image" className='logo-image' />
+        <h1>PowerPro Academy</h1>
       </div>
 
       <div className='navlinks'>
