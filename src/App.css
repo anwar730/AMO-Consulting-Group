@@ -148,7 +148,28 @@ span{
    width: 90%;
    margin: 30px;
 }
-
+.choose-us-section{
+  margin: 55px 50px;
+}
+.choose-us-container{
+  display: flex;
+  /* justify-content: space-between; */
+  /* margin-right:130px ; */
+  align-items: center;
+  gap:40px;
+  flex-wrap: wrap;
+}
+.choose-us-section h1{
+text-align: center;
+}
+.choose-us-item{
+  display: flex;
+  gap:20px;
+  align-items: center;
+}
+.icons{
+  font-size: xx-large;
+}
 @media (max-width: 768px) {
   .navlinks {
     display: none;
