@@ -35,6 +35,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   padding: 10px;
+  position: relative;
 }
 
 .logo-image {
@@ -43,6 +44,7 @@ nav {
 
 .navlinks {
   display: flex;
+  align-items: center;
   gap: 50px;
 }
 
@@ -56,6 +58,58 @@ nav {
 .navlinks a:hover {
   color: #499ede
 }
+.hamburger {
+  display: none;
+  cursor: pointer;
+  border: none;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+  outline: none;
+  z-index: 1001; /* Ensures it is above the nav links */
+}
+.hamburger:focus {
+  outline: none; /* Remove outline on focus */
+}
+
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: black;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+/* Hamburger menu open styles */
+.hamburger.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+
+.hamburger.open .hamburger-middle {
+  opacity: 0;
+}
+
+.hamburger.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+
+/* Responsive styles */
+
 .start-btn{
     background: #499ede;
     border-radius: 8px;
@@ -93,4 +147,36 @@ span{
 .hero-section img{
    width: 90%;
    margin: 30px;
+}
+
+@media (max-width: 768px) {
+  .navlinks {
+    display: none;
+    padding: 30px;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    /* left: 50; */
+    z-index: 1000;
+    background-color: whitesmoke;
+  }
+
+  .navlinks.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+  .hero-section{
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .hero-section img{
+    width:100%;
+    margin: auto;
+  }
 }
