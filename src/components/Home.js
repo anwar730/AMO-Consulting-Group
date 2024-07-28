@@ -5,9 +5,19 @@ import { IoBookSharp } from "react-icons/io5";
 import { LiaCertificateSolid } from "react-icons/lia";
 function Home() {
   return (
-    <>
+    <div className="container">
+    {/* <h1 class="text-3xl font-bold underline <">
+    Hello world!
+  </h1> */}
     
-    <section className="hero-section">
+    </div>
+  );
+}
+
+export default Home;
+
+
+{/* <section className="hero-section">
       <div>
         <h1>
           Welcome to <span>PowerPro Academy</span>
@@ -23,7 +33,7 @@ function Home() {
           explore new interests,
           <br /> we have the right course for <span>you.</span>
         </p>
-        <a className="start-btn">Get Started</a>
+        <a className="start-btn" href="https://forms.office.com/pages/responsepage.aspx?id=EeE0QF5AFEWcUOAwYgqu_WbD0_OTVQ5GkKF2vVltsHxUQ1hSWFFCVEZHOFNFV0pSUDNFVk9PRUg1Ty4u" target="blank">Get Started</a>
       </div>
       <div>
         <img src="https://empyreanit.com.au/wp-content/uploads/2023/11/Power-platform.png" />
@@ -58,11 +68,8 @@ Earn certificates to showcase your new skills and enhance your resume.</h3>
       </h3>
       </div>
       </div>
+      <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
       
-      
-    </section>
-    </>
-  );
-}
-
-export default Home;
+    </section> */}
