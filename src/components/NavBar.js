@@ -62,7 +62,7 @@ function NavBar() {
     }
   }, [isOpen]);
   return (
-    <nav className='navbar container mx-auto p-4'>
+    <nav className='navbar container mx-auto p-4 sticky top-0'>
       <div className='flex justify-between px-4 py-8 items-center'>
         <div>
           <h1 className='logo text-blue font-extrabold'>PowerPro Academy</h1>

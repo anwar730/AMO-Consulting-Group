@@ -5,10 +5,19 @@ import { IoBookSharp } from "react-icons/io5";
 import { LiaCertificateSolid } from "react-icons/lia";
 function Home() {
   return (
-    <div className="container">
-    {/* <h1 class="text-3xl font-bold underline <">
-    Hello world!
-  </h1> */}
+    <div className="container mx-auto mt-4 flex items-center justify-between  md:flex-row flex-col-reverse ">
+      <div className="sm:mt-12 flex flex-col">
+        <h1 className="font-bold text-3xl py-4 hidden md:block">Welcome to <span className="text-blue font-extrabold">PowerPro Academy.</span></h1>
+        <h4 className="font-bold text-2xl py-4">Empower Your Skills with Our Comprehensive Courses.</h4>
+        <p className="welcome-msg ">
+        Enhance your skills with practical, high-quality courses from expert instructors.<br/> Advance your career or explore new interests with PowerPro Academy.
+        </p>
+        <div className="flex justify-center md:block"><a className="start-btn mt-5" href="https://forms.office.com/pages/responsepage.aspx?id=EeE0QF5AFEWcUOAwYgqu_WbD0_OTVQ5GkKF2vVltsHxUQ1hSWFFCVEZHOFNFV0pSUDNFVk9PRUg1Ty4u" target="blank">Get Started</a></div>
+        
+      </div>
+      <div className="hero-img mt-10">
+        <img src="https://empyreanit.com.au/wp-content/uploads/2023/11/Power-platform.png"/>
+      </div>
     
     </div>
   );

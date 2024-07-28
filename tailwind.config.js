@@ -15,6 +15,12 @@ module.exports = {
       // 'bermuda': '#78dcca',
       "blue":"#499ede"
     },
+    screens:{
+      sm:"480px",
+      md:"768px",
+      lg:"1020px",
+      xl:"1440px"
+    },
     extend: {},
   },
   plugins: [],
