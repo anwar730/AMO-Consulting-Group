@@ -64,5 +64,8 @@ body{
     position: relative;
     text-align: center;
     transition: color .5s ease,background .5s ease,border .5s ease;
-    
 }
+/* .icons{
+  font-size: xx-large;
+  font: 45px;
+} */
