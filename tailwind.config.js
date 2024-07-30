@@ -13,6 +13,7 @@ module.exports = {
       // 'silver': '#ecebff',
       // 'bubble-gum': '#ff77e9',
       // 'bermuda': '#78dcca',
+      "cardColor": '#F5F5F5',
       "lightBlue":   'rgb(234, 245, 253)',
       "lightred":'rgb(255, 239, 240)',
       "lightgreen":'rgb(230, 255, 243)',
