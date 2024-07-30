@@ -62,10 +62,10 @@ function NavBar() {
     }
   }, [isOpen]);
   return (
-    <nav className='navbar container mx-auto p-4 sticky top-0'>
+    <nav className='navbar container mx-auto p-4  top-0'>
       <div className='flex justify-between px-4 py-8 items-center'>
         <div>
-          <h1 className='logo text-blue font-extrabold'>PowerPro Academy</h1>
+          <h1 className='logo text-blue font-extrabold'>lOGO</h1>
         </div>
 
         <div className={"space-x-10 font-bold hidden md:flex"}>

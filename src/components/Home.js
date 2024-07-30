@@ -3,6 +3,7 @@ import { FaChalkboardTeacher } from "react-icons/fa";
 import { GrPersonalComputer } from "react-icons/gr";
 import { IoBookSharp } from "react-icons/io5";
 import { LiaCertificateSolid } from "react-icons/lia";
+import { FaQuoteLeft } from "react-icons/fa";
 function Home() {
   return (
     <>
@@ -49,7 +50,7 @@ function Home() {
           </div>
           <div className="choose-us-item flex items-center justify-around space-x-6 p-6">
             <GrPersonalComputer className="icons size-20" />
-            <h3  className="font-bold">
+            <h3 className="font-bold">
               Flexible Learning:
               <br />
               Fit learning into your busy schedule with flexible deadlines.
@@ -57,7 +58,7 @@ function Home() {
           </div>
           <div className="choose-us-item flex items-center justify-around space-x-6 p-6 ">
             <IoBookSharp className="icons size-20" />
-            <h3  className="font-bold">
+            <h3 className="font-bold">
               Comprehensive Resources
               <br />
               Enjoy interactive tutorials, hands-on exercises, and real-world
@@ -66,14 +67,68 @@ function Home() {
           </div>
           <div className="choose-us-item flex items-center justify-around space-x-6 p-6">
             <LiaCertificateSolid className="icons size-20" />
-            <h3  className="font-bold">
+            <h3 className="font-bold">
               Certification:
               <br />
               Earn certificates to showcase your new skills and enhance your
               resume.
             </h3>
-            <h3></h3>
           </div>
+        </div>
+      </div>
+      <div className="container mx-auto mt-10">
+        <h1 className="text-center font-bold text-2xl">Our Courses</h1>
+        <div className="courses-container md:flex items-center justify-between">
+        <div className="course-card">
+          <img src="https://1000logos.net/wp-content/uploads/2022/08/Microsoft-SharePoint-Logo.png" className="md:w-60 md:h-64"/>
+          <h1 className="text-center">Microsoft SharePoint</h1>
+        </div>
+        <div>
+          <img src="https://images.squarespace-cdn.com/content/v1/62460a56418af8236d4f3fee/e00b4d15-e244-4d5c-976e-01aa54763133/powerautomate-small%406x.png" className="md:w-60"/>
+          <h1 className="text-center">Microsoft Power Automate</h1>
+        </div>
+        <div>
+          <img src="https://play-lh.googleusercontent.com/hLl_pWy-rbQgEpBukZrRNvX8K0-Eh5j9IXQ0IK24nvPzLncmJrYgpohQk0BpQrJYg2M" className="md:w-60"/>
+          <h1  className="text-center">Microsoft Power Apps</h1>
+        </div>
+        <div>
+          <img src="https://i.pinimg.com/originals/7a/f2/1e/7af21eaf89a449831a1e12d640b54fae.png" className="md:w-60 md:h-64"/>
+          <h1 className="text-center">Microsoft Power BI</h1>
+        </div>
+        </div>
+        
+      </div>
+      <div className="container mx-auto mt-10">
+        <h1 className="text-center font-bold text-2xl">What Our Students Have To Say</h1>
+        <div className="testimonials_container md:flex flex-wrap justify-around mt-6 items-center  space-x-4">
+            <div className="testimonial-card bg-lightYellow p-10 rounded-lg mt-6">
+              <div className="flex items-center space-y-4 space-x-4">
+              <FaQuoteLeft className="size-12"/> 
+            <h1 className="text-xl font-bold">Anwar Ismail</h1>
+              </div>
+            <p className="mt-5">This class was really terrific. I have already done a little<br/> work with Power BI, but I learned a ton. They tailored it to all levels.<br/> Honestly, probably the best online class I have ever had.</p>
+            </div>
+            <div className="testimonial-card bg-lightBlue p-10 rounded-lg  mt-6">
+              <div className="flex items-center space-y-4 space-x-4 ">
+              <FaQuoteLeft className="size-12"/> 
+            <h1 className="text-xl font-bold">Anwar Ismail</h1>
+              </div>
+            <p className="mt-5">This class was really terrific. I have already done a little<br/> work with Power BI, but I learned a ton. They tailored it to all levels.<br/> Honestly, probably the best online class I have ever had.</p>
+            </div>
+            <div className="testimonial-card bg-lightred p-10 rounded-lg  mt-6">
+              <div className="flex items-center space-y-4 space-x-4">
+              <FaQuoteLeft className="size-12"/> 
+            <h1 className="text-xl font-bold">Anwar Ismail</h1>
+              </div>
+            <p className="mt-5">This class was really terrific. I have already done a little<br/> work with Power BI, but I learned a ton. They tailored it to all levels.<br/> Honestly, probably the best online class I have ever had.</p>
+            </div>
+            <div className="testimonial-card bg-lightgreen p-10 rounded-lg  mt-6">
+              <div className="flex items-center space-y-4 space-x-4">
+              <FaQuoteLeft className="size-12"/> 
+            <h1 className="text-xl font-bold">Anwar Ismail</h1>
+              </div>
+            <p className="mt-5">This class was really terrific. I have already done a little<br/> work with Power BI, but I learned a ton. They tailored it to all levels.<br/> Honestly, probably the best online class I have ever had.</p>
+            </div>
         </div>
       </div>
     </>
