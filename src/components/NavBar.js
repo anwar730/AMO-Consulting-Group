@@ -70,7 +70,16 @@ function NavBar() {
 
         <div className={"space-x-10 font-bold hidden md:flex"}>
           <NavLink to="/" className="hover:text-blue">Home</NavLink>
-          <NavLink to="/courses" className="hover:text-blue">Courses</NavLink>
+          {/* <NavLink to="/courses" className="hover:text-blue">Courses</NavLink> */}
+          <div className="nav-item  dropdown">
+          <span className="nav-link">Courses</span>
+          <div className="dropdown-content ">
+            <NavLink to="/courses/sharepoint" className="dropdown-item">Microsoft Sharepoint</NavLink>
+            <NavLink to="/courses/powerautomate" className="dropdown-item">Microsoft Power Automate</NavLink>
+            <NavLink to="/courses/powerapps" className="dropdown-item">Microsoft Power Apps</NavLink>
+            <NavLink to="/courses/powerbi" className="dropdown-item">Microsoft Power BI</NavLink>
+          </div>
+        </div>
           <NavLink to="/about" className="hover:text-blue">About Us</NavLink>
         </div>
         <button id="menu-btn" className={`hamburger ${isOpen ? 'open' : ''} block md:hidden focus:outline-none`} onClick={toggleMenu}>
@@ -82,7 +91,15 @@ function NavBar() {
       <div className='md:hidden'>
         <div className={`${isOpen ? 'block' : 'hidden'} flex flex-col items-center  py-8 mt-8 space-y-6 font-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
           <NavLink to="/" className="hover:text-blue" onClick={toggleMenu}>Home</NavLink>
-          <NavLink to="/courses" className="hover:text-blue" onClick={toggleMenu}>Courses</NavLink>
+          <div className="nav-item  dropdown">
+          <span className="nav-link">Courses</span>
+          <div className="dropdown-content">
+            <NavLink to="/courses/sharepoint" className="dropdown-item">Microsoft Sharepoint</NavLink>
+            <NavLink to="/courses/powerautomate" className="dropdown-item">Microsoft Power Automate</NavLink>
+            <NavLink to="/courses/powerapps" className="dropdown-item">Microsoft Power Apps</NavLink>
+            <NavLink to="/courses/powerbi" className="dropdown-item">Microsoft Power BI</NavLink>
+          </div>
+        </div>
           <NavLink to="/about" className="hover:text-blue" onClick={toggleMenu}>About Us</NavLink>
         </div>
       </div>

@@ -4,6 +4,7 @@ import { GrPersonalComputer } from "react-icons/gr";
 import { IoBookSharp } from "react-icons/io5";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { FaQuoteLeft } from "react-icons/fa";
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
@@ -79,21 +80,21 @@ function Home() {
       <div className="container mx-auto mt-10">
         <h1 className="text-center font-bold text-2xl">Our Courses</h1>
         <div className="courses-container md:flex items-center justify-between">
-        <div className="course-card">
+        <div className="flex flex-col items-center">
           <img src="https://1000logos.net/wp-content/uploads/2022/08/Microsoft-SharePoint-Logo.png" className="md:w-60 md:h-64"/>
-          <h1 className="text-center">Microsoft SharePoint</h1>
+          <Link to="/courses/sharepoint"  className="font-bold">Microsoft SharePoint</Link>
         </div>
-        <div>
+        <div className="flex flex-col items-center">
           <img src="https://images.squarespace-cdn.com/content/v1/62460a56418af8236d4f3fee/e00b4d15-e244-4d5c-976e-01aa54763133/powerautomate-small%406x.png" className="md:w-60"/>
-          <h1 className="text-center">Microsoft Power Automate</h1>
+          <Link to="/courses/powerautomate" className="font-bold">Microsoft Power Automate</Link>
         </div>
-        <div>
+        <div className="flex flex-col items-center">
           <img src="https://play-lh.googleusercontent.com/hLl_pWy-rbQgEpBukZrRNvX8K0-Eh5j9IXQ0IK24nvPzLncmJrYgpohQk0BpQrJYg2M" className="md:w-60"/>
-          <h1  className="text-center">Microsoft Power Apps</h1>
+          <Link to="/courses/powerapps" className="font-bold" >Microsoft Power Apps</Link>
         </div>
-        <div>
+        <div className="flex flex-col items-center">
           <img src="https://i.pinimg.com/originals/7a/f2/1e/7af21eaf89a449831a1e12d640b54fae.png" className="md:w-60 md:h-64"/>
-          <h1 className="text-center">Microsoft Power BI</h1>
+          <Link to="/courses/powerbi"  className="font-bold">Microsoft Power BI</Link>
         </div>
         </div>
         
