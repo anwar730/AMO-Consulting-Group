@@ -17,8 +17,8 @@ function Footer() {
      <p>Stay updated with the latest courses and offers:</p>
 
      <form action="#" method="post" className=''> 
-     <input type="email" id="email" name="email" placeholder="Your email address" required className='my-4 px-2 py-4 rounded-lg'/> <br/>
-     <input type="submit" value="Subscribe" className='start-btn px-11 py-4'></input>
+     <input type="email" id="email" name="email" placeholder="Your email address" required className='my-4 px-6 py-2 rounded-lg'/> <br/>
+     <input type="submit" value="Subscribe" className='start-btn px-8 py-4'></input>
       </form>
       </div>
       <div>

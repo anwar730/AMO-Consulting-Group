@@ -40,8 +40,8 @@ function Powerapps() {
         </div>
       </div>
 
-      <div className="container mx-auto my-64">
-        <h1 className="font-bold text-2xl py-4 mt-10 text-center">
+      <div className="container mx-auto my-40">
+        <h1 className="font-bold text-2xl py-4 my-10 text-center">
           Objectives
         </h1>
         <div className="md:flex items-center justify-around">
@@ -88,8 +88,8 @@ function Powerapps() {
         </div>
       </div>
 
-      <div className="container mx-auto my-24">
-        <h1 className="font-bold text-2xl py-4 mt-10 text-center">
+      <div className="container mx-auto my-40">
+        <h1 className="font-bold text-2xl py-4 my-10 text-center">
           Key Modules
         </h1>
         <div className="px-4 py-14 bg-white shadow-lg rounded-lg module-card">

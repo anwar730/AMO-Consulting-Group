@@ -37,7 +37,7 @@ function Home() {
           <img src="https://empyreanit.com.au/wp-content/uploads/2023/11/Power-platform.png" />
         </div>
       </div>
-      <div className="container mx-auto mt-10">
+      <div className="container mx-auto my-40">
         <h1 className="text-center font-bold text-2xl">Why Choose Us?</h1>
         <div className="choose-us-container md:flex px-6 py-8  mt-6 items-center  space-x-4 ">
           <div className="choose-us-item flex items-center justify-around  space-x-10 md:space-x-6 p-6">
@@ -77,7 +77,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto mt-10">
+      <div className="container mx-auto my-40">
         <h1 className="text-center font-bold text-2xl">Our Courses</h1>
         <div className="courses-container md:flex items-center justify-between">
         <div className="flex flex-col items-center">
@@ -99,7 +99,7 @@ function Home() {
         </div>
         
       </div>
-      <div className="container mx-auto mt-10">
+      <div className="container mx-auto my-40">
         <h1 className="text-center font-bold text-2xl">What Our Students Have To Say</h1>
         <div className="testimonials_container md:flex flex-wrap justify-around mt-6 items-center  space-x-4">
             <div className="testimonial-card bg-lightYellow p-10 rounded-lg mt-6">

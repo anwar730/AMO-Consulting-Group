@@ -6,7 +6,7 @@ import { LiaCertificateSolid } from "react-icons/lia";
 
 function Resources() {
   return (
-    <div className="container mx-auto my-24">
+    <div className="container mx-auto my-40">
         <h1 className="font-bold text-2xl py-4 mt-10 text-center">
           Course Resources
         </h1>

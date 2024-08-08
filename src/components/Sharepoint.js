@@ -40,8 +40,8 @@ function Sharepoint() {
         </div>
       </div>
 
-      <div className="container mx-auto my-64">
-        <h1 className="font-bold text-2xl py-4 mt-10 text-center">
+      <div className="container mx-auto my-40">
+        <h1 className="font-bold text-2xl py-4 my-10 text-center">
           Objectives
         </h1>
         <div className="md:flex items-center justify-around">
@@ -89,8 +89,8 @@ function Sharepoint() {
         </div>
       </div>
 
-      <div className="container mx-auto my-24">
-        <h1 className="font-bold text-2xl py-4 mt-10 text-center">
+      <div className="container mx-auto my-40">
+        <h1 className="font-bold text-2xl py-4 my-10 text-center">
           Key Modules
         </h1>
         <div className="px-4 py-14 bg-white shadow-lg rounded-lg module-card">
@@ -133,38 +133,3 @@ function Sharepoint() {
 
 export default Sharepoint;
 
-// Uploading, organizing, and sharing documents.
-// Using libraries and lists for document management.
-// Collaboration Tools
-// Real-time co-authoring and editing.
-// Creating and managing shared workspaces and calendars.
-// Advanced Features
-// Automating workflows with Power Automate.
-// Integrating SharePoint with other Microsoft 365 applications.
-
-// Benefits of Learning SharePoint
-// Enhanced Collaboration:
-// Streamline teamwork with centralized document sharing and real-time editing.
-// Foster communication through integrated tools like Microsoft Teams.
-// Improved Productivity:
-// Automate repetitive tasks and processes.
-// Efficiently manage documents and resources.
-// Career Advancement:
-// Gain a valuable skill set in high demand across various industries.
-// Enhance your resume and professional profile with SharePoint expertise.
-
-// Course Resources
-// Interactive Tutorials:
-// Step-by-step guides and video tutorials.
-// Hands-on exercises to reinforce learning.
-// Labs:
-// Hands-on exercises to practice and reinforce learning.
-// Supportive Community:
-// Access to a community forum for discussing topics and sharing insights.
-// Instructor support for questions and guidance.
-//
-
-// Duration: 6 weeks
-// Format: Online, self-paced
-// Certificate: Yes, upon completion
-// Learn More-Link to microsoft sharepoint page

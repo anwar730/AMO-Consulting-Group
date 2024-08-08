@@ -5,7 +5,7 @@ import values from "../components/image/values.png";
 function About() {
   return (
     <>
-      <h1 className="font-bold text-2xl py-4 mt-10 text-center">About Us</h1>
+      <h1 className="font-bold text-2xl py-4 my-10 text-center">About Us</h1>
 
       <div className="container mx-auto p-4  md:flex items-center justify-around">
       <div>
@@ -34,7 +34,7 @@ function About() {
         
         
       </div>
-      <div className="container mx-auto p-4 md:flex-row items-center justify-around flex flex-col-reverse ">
+      <div className="container mx-auto my-40 p-4 md:flex-row items-center justify-around flex flex-col-reverse ">
      
         <div>
           <h1 className="font-bold text-2xl py-4 mt-10 ">Our Vision</h1>
@@ -64,7 +64,7 @@ function About() {
        
         
       </div>
-      <div className="container mx-auto p-4 md:flex items-center justify-around">
+      <div className="container mx-auto my-40 p-4 md:flex items-center justify-around">
       <div>
         <img
           src={values}

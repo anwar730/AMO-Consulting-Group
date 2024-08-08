@@ -9,7 +9,7 @@ function Powerbi() {
     <>
       <div className="container mx-auto  my-24 flex items-center justify-between  md:flex-row flex-col-reverse ">
         <div>
-          <h1 className="font-bold text-2xl py-4">Microsoft SharePoint</h1>
+          <h1 className="font-bold text-2xl py-4">Microsoft Power Bi</h1>
           <p>
           Master the art of data analysis and visualization with Microsoft Power BI.
             <br /> This course covers data collection, cleaning, and transformation,
@@ -41,8 +41,8 @@ function Powerbi() {
         </div>
       </div>
 
-      <div className="container mx-auto my-64">
-        <h1 className="font-bold text-2xl py-4 mt-10 text-center">
+      <div className="container mx-auto my-40">
+        <h1 className="font-bold text-2xl py-4 my-10 text-center">
           Objectives
         </h1>
         <div className="md:flex items-center justify-around">
@@ -93,8 +93,8 @@ function Powerbi() {
         </div>
       </div>
 
-      <div className="container mx-auto my-24">
-        <h1 className="font-bold text-2xl py-4 mt-10 text-center">
+      <div className="container mx-auto my-40">
+        <h1 className="font-bold text-2xl py-4 my-10 text-center">
           Key Modules
         </h1>
         <div className="px-4 py-14 bg-white shadow-lg rounded-lg module-card">
