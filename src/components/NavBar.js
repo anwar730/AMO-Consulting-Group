@@ -47,7 +47,7 @@
 
 // export default NavBar;
 import React, { useState, useEffect } from 'react';
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,7 +65,7 @@ function NavBar() {
     <nav className='navbar container mx-auto p-4  top-0'>
       <div className='flex justify-between px-4 py-8 items-center'>
         <div>
-          <h1 className='logo text-blue font-extrabold'>lOGO</h1>
+          <Link to="/"className='logo text-blue font-extrabold'>lOGO</Link>
         </div>
 
         <div className={"space-x-10 font-bold hidden md:flex"}>
