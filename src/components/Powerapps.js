@@ -26,7 +26,7 @@ function Powerapps() {
           </a>
           <a
             className="start-btn mt-5"
-            href="https://forms.office.com/pages/responsepage.aspx?id=EeE0QF5AFEWcUOAwYgqu_WbD0_OTVQ5GkKF2vVltsHxUQ1hSWFFCVEZHOFNFV0pSUDNFVk9PRUg1Ty4u"
+            href="https://forms.office.com/Pages/ResponsePage.aspx?id=EeE0QF5AFEWcUOAwYgqu_WbD0_OTVQ5GkKF2vVltsHxURTNWV1VDVkRVRE9RNExZTktDWlZNWE4zTS4u"
             target="blank"
           >
             Register Now
@@ -93,7 +93,7 @@ function Powerapps() {
           Key Modules
         </h1>
         <div className="px-4 py-14 bg-white shadow-lg rounded-lg module-card">
-          <h1 className="font-bold text-xl pb-6 text-center">Duration:12 Weeks</h1>
+          <h1 className="font-bold text-xl pb-6 text-center">Duration:4 Weeks</h1>
           <ul className="space-y-4">
             <li className="font-bold pb-4  border-b border-gray-200">
             Introduction to Power Apps

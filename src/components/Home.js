@@ -26,7 +26,7 @@ function Home() {
           <div className="flex justify-center md:block">
             <a
               className="start-btn mt-5"
-              href="https://forms.office.com/pages/responsepage.aspx?id=EeE0QF5AFEWcUOAwYgqu_WbD0_OTVQ5GkKF2vVltsHxUQ1hSWFFCVEZHOFNFV0pSUDNFVk9PRUg1Ty4u"
+              href="https://forms.office.com/Pages/ResponsePage.aspx?id=EeE0QF5AFEWcUOAwYgqu_WbD0_OTVQ5GkKF2vVltsHxURTNWV1VDVkRVRE9RNExZTktDWlZNWE4zTS4u"
               target="blank"
             >
               Get Started
@@ -38,12 +38,12 @@ function Home() {
         </div>
       </div>
       <div className="container mx-auto my-40">
-        <h1 className="text-center font-bold text-2xl">Why Choose Us?</h1>
+        <h1 className="text-center font-bold text-2xl">Services Offered: </h1>
         <div className="choose-us-container md:flex px-6 py-8  mt-6 items-center  space-x-4 ">
           <div className="choose-us-item flex items-center justify-around  space-x-10 md:space-x-6 p-6">
             <FaChalkboardTeacher className="icons size-20" />
             <h3 className="font-bold">
-              Expert Instructors
+            On Demand Trainning 
               <br />
               Get personalized guidance and support throughout your learning
               journey.
