@@ -17,7 +17,7 @@ function NavBar() {
     <nav className='navbar container mx-auto p-4  top-0'>
       <div className='flex justify-between px-4 py-8 items-center'>
         <div>
-          <Link to="/"className='logo text-blue '>PowerPro Academy</Link>
+          <Link to="/"className='logo text-blue '>PowerPro</Link>
         </div>
 
         <div className={"space-x-10 hidden md:flex"}>

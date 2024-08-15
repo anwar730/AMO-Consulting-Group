@@ -6,6 +6,7 @@ import { LiaCertificateSolid } from "react-icons/lia";
 import { FaQuoteLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import sharepoint from "../components/image/icons8-sharepoint-144.png";
+import powerplatform from "../components/image/Power-platform.png"
 import powerapps from "../components/image/icons8-power-apps-144.png";
 import powerbi from "../components/image/icons8-power-bi-2021-144.png";
 import powerautomate from "../components/image/icons8-microsoft-power-automate-2020-144.png";
@@ -39,7 +40,7 @@ function Home() {
           </div>
         </div>
         <div className="hero-img mt-10">
-          <img src="https://empyreanit.com.au/wp-content/uploads/2023/11/Power-platform.png" />
+          <img src={powerplatform} />
         </div>
       </div>
      
@@ -49,7 +50,7 @@ function Home() {
         <div className="testimonial-card p-10 rounded-lg flex flex-col items-center space-y-4">
         <FaChalkboardTeacher className="icons size-20 items-center" />
         <div>
-        <h3 className="font-bold">On Demand Trainning:</h3>
+        <h3 className="font-bold">On Demand Training:</h3>
         <p>We provides immediate access to a wide variety of courses
         <br/>
          that you can take at your own pace.<br/>
@@ -83,10 +84,11 @@ function Home() {
         <div className="testimonial-card p-10 rounded-lg flex flex-col items-center space-y-4">
         <LiaCertificateSolid className="icons size-20" />
         <div>
-        <h3 className="font-bold">1 on 1 Training:</h3>
-        <p>With 1 on 1 Training, you receive personalized<br/>
-           attention and tailored instruction from our expert trainers.<br/>
-           Perfect for those who want to focus on specific areas of interest</p>
+        <h3 className="font-bold">Certification:</h3>
+           
+        <p>Earn certificates to showcase your new skills and <br/>   
+           enhance your resume.Demonstrate your proficiency<br/>
+           in specific areas, showcasing your commitment to professional growth.</p>
         </div>
         </div>
       </div>
@@ -94,7 +96,7 @@ function Home() {
       </div>
       <div className="container mx-auto my-40">
         <h1 className="text-center font-bold text-2xl">Our Courses</h1>
-        <div className="courses-container flex flex-col mt-12 md:flex-row items-center justify-between mt-12">
+        <div className="courses-container flex flex-col space-y-4 md:flex-row items-center justify-between mt-12">
         <div className="flex flex-col space-y-4 items-center">
           <img src={sharepoint}/>
           <Link to="/courses/sharepoint" className="font-bold">Microsoft SharePoint</Link>
