@@ -2,12 +2,12 @@ import React from 'react'
 import { GoGoal } from "react-icons/go";
 
 import Resources from "./Resources";
-import powerapps from "../components/image/icons8-power-apps-144.png";
+import powerapps from "../components/image/icons8-microsoft-power-apps-96.png";
 
 function Powerapps() {
   return (
     <>
-      <div className="container mx-auto  my-24 flex items-center justify-between  md:flex-row flex-col-reverse ">
+      <div className="container p-6 mx-auto  my-24 flex items-center justify-between  md:flex-row flex-col-reverse ">
         <div>
           <h1 className="font-bold text-2xl py-4">Microsoft Power Apps</h1>
           <p>
@@ -41,7 +41,7 @@ function Powerapps() {
         </div>
       </div>
 
-      <div className="container mx-auto my-40">
+      <div className="container p-6 mx-auto my-40">
         <h1 className="font-bold text-2xl py-4 my-10 text-center">
           Objectives
         </h1>
@@ -89,7 +89,7 @@ function Powerapps() {
         </div>
       </div>
 
-      <div className="container mx-auto my-40">
+      <div className="container p-6 mx-auto my-40">
         <h1 className="font-bold text-2xl py-4 my-10 text-center">
           Key Modules
         </h1>

@@ -123,3 +123,40 @@ nav a.active {
 .card-container {
   padding: 2px 16px;
 }
+.choose-us-container.mt-6,.testimonial_parent {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 0.6fr));
+  gap: 4rem;
+}
+
+@media (max-width: 768px) {
+  .choose-us-container.mt-6,.testimonial_parent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+    place-items: center;
+  }
+}
+#card-img {
+  width: 500px; /* Adjust width as needed */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+#card-button:hover {
+  svg {
+    width: 2rem;
+    transition-delay: 0.25s;
+  }
+}
+
+#cards:hover {
+  background:#499ede!important;
+  transition: 1s;
+  color: #ffffff !important;
+}
+
+
+
+#cards:hover a, #cards:hover h5, #cards:hover p {
+  color: #ffffff !important;
+}

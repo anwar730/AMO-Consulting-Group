@@ -5,12 +5,13 @@ import { PiAddressBookFill } from "react-icons/pi";
 import { FaInstagram } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import logo from "./image/image1.png"
 
 function Footer() {
   return (
     <>
    
-    <div className='footer  mt-14 bg-lightBlue py-16'>
+    <div className='footer  p-6 mt-14 bg-lightBlue py-16'>
       <div className='md:flex md:items-center md:justify-around space-y-4' >
       <div>
      <h1 className='font-bold text-xl'>Subscribe to Our Newsletter</h1> 

@@ -1,13 +1,13 @@
 import React from 'react'
 
 import { GoGoal } from "react-icons/go";
-import powerbi from "../components/image/icons8-power-bi-2021-144.png";
+import powerbi from "../components/image/icons8-power-bi-2021-96.png";
 import Resources from "./Resources";
 
 function Powerbi() {
   return (
     <>
-      <div className="container mx-auto  my-24 flex items-center justify-between  md:flex-row flex-col-reverse ">
+      <div className="container p-6 mx-auto  my-24 flex items-center justify-between  md:flex-row flex-col-reverse ">
         <div>
           <h1 className="font-bold text-2xl py-4">Microsoft Power Bi</h1>
           <p>
@@ -41,7 +41,7 @@ function Powerbi() {
         </div>
       </div>
 
-      <div className="container mx-auto my-40">
+      <div className="container p-6 mx-auto my-40">
         <h1 className="font-bold text-2xl py-4 my-10 text-center">
           Objectives
         </h1>
@@ -93,7 +93,7 @@ function Powerbi() {
         </div>
       </div>
 
-      <div className="container mx-auto my-40">
+      <div className="container p-6 mx-auto my-40">
         <h1 className="font-bold text-2xl py-4 my-10 text-center">
           Key Modules
         </h1>
