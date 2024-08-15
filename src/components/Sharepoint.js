@@ -2,6 +2,7 @@ import React from "react";
 import { GoGoal } from "react-icons/go";
 
 import Resources from "./Resources";
+import sharepoint from "../components/image/icons8-sharepoint-144.png";
 
 function Sharepoint() {
   return (
@@ -34,8 +35,8 @@ function Sharepoint() {
         </div>
         <div>
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeBOaUMTRRY1oVmBraVayGfQ4kS5_h-rw6PA&s"
-            className="h-72 rounded-lg"
+            src={sharepoint}
+            
           />
         </div>
       </div>

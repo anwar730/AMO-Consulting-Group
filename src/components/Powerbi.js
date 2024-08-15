@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { GoGoal } from "react-icons/go";
-
+import powerbi from "../components/image/icons8-power-bi-2021-144.png";
 import Resources from "./Resources";
 
 function Powerbi() {
@@ -35,7 +35,7 @@ function Powerbi() {
         </div>
         <div>
           <img
-            src="https://img-c.udemycdn.com/course/750x422/5719456_0bb3_2.jpg"
+            src={powerbi}
             className="h-80 rounded-lg"
           />
         </div>

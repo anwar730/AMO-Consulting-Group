@@ -2,6 +2,7 @@ import React from 'react'
 import { GoGoal } from "react-icons/go";
 
 import Resources from "./Resources";
+import powerapps from "../components/image/icons8-power-apps-144.png";
 
 function Powerapps() {
   return (
@@ -34,7 +35,7 @@ function Powerapps() {
         </div>
         <div>
           <img
-            src="https://dynamics-chronicles.com/sites/default/files/styles/max_1300x1300/public/2022-07/59177e6a023a9286d0e583c849fb3bf4_0.jpg?itok=nE8zGQjB"
+            src={powerapps}
             className="h-96 rounded-lg"
           />
         </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import { GoGoal } from "react-icons/go";
 
 import Resources from "./Resources";
+import powerautomate from "../components/image/icons8-microsoft-power-automate-2020-144.png";
 
 function Powerautomate() {
   return (
@@ -33,7 +34,7 @@ function Powerautomate() {
         </div>
         <div>
           <img
-            src="https://sharepointinterface.com/wp-content/uploads/2023/01/PALogo.png"
+            src={powerautomate}
             className="h-72 rounded-lg"
           />
         </div>

@@ -3,16 +3,6 @@ module.exports = {
  content: ["./src/**/*.{html,js}"],
   theme: {
     colors: {
-      // transparent: 'transparent',
-      // current: 'currentColor',
-      // 'white': '#ffffff',
-      // 'purple': '#3f3cbb',
-      // 'midnight': '#121063',
-      // 'metal': '#565584',
-      // 'tahiti': '#3ab7bf',
-      // 'silver': '#ecebff',
-      // 'bubble-gum': '#ff77e9',
-      // 'bermuda': '#78dcca',
       "cardColor": '#F5F5F5',
       "lightBlue":   'rgb(234, 245, 253)',
       "lightred":'rgb(255, 239, 240)',

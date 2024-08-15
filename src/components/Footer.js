@@ -10,7 +10,7 @@ function Footer() {
   return (
     <>
    
-    <div className='footer  mt-10 bg-lightBlue py-16'>
+    <div className='footer  mt-14 bg-lightBlue py-16'>
       <div className='md:flex md:items-center md:justify-around space-y-4' >
       <div>
      <h1 className='font-bold text-xl'>Subscribe to Our Newsletter</h1> 
@@ -21,7 +21,7 @@ function Footer() {
      <input type="submit" value="Subscribe" className='start-btn px-8 py-4'></input>
       </form>
       </div>
-      <div>
+      <div className='space-y-4'>
       <h1  className='font-bold text-xl'>Contact Us</h1>
       <h4>Questions? We're Here to Help!</h4>
       <div className='flex items-center space-x-4'>
@@ -38,11 +38,10 @@ function Footer() {
       </div>
       </div>
       
-       <div>
+       <div className='space-y-4'>
         <h1  className='font-bold text-xl'>Follow Us</h1>
         <p className='hidden md:block'>Stay updated with the latest course offerings and educational tips:</p>
-        <div className='flex items-center space-x-4'>
-        {/* <a href="https://www.instagram.com/amoconsultinggroup/"><FaInstagram className='size-6'/></a> */}
+        <div className='flex items-center space-x-6 '>
         <a
         href="https://www.instagram.com/amoconsultinggroup/"
         target="_blank"

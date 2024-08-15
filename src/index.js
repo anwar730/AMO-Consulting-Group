@@ -10,14 +10,6 @@ root.render(
     <App />
   </React.StrictMode>
 );
-// const btn=document.getElementById("menu-btn")
-// const nav=document.getElementById("menu")
-
-// btn.addEventListener("click",()=>{
-//     btn.classList.toggle("open")
-//     nav.classList.toggle("flex")
-//     nav.classList.toggle("hidden")
-// })
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

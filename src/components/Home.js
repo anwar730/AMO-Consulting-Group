@@ -5,6 +5,11 @@ import { IoBookSharp } from "react-icons/io5";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { FaQuoteLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import sharepoint from "../components/image/icons8-sharepoint-144.png";
+import powerapps from "../components/image/icons8-power-apps-144.png";
+import powerbi from "../components/image/icons8-power-bi-2021-144.png";
+import powerautomate from "../components/image/icons8-microsoft-power-automate-2020-144.png";
+
 function Home() {
   return (
     <>
@@ -37,63 +42,73 @@ function Home() {
           <img src="https://empyreanit.com.au/wp-content/uploads/2023/11/Power-platform.png" />
         </div>
       </div>
+     
       <div className="container mx-auto my-40">
-        <h1 className="text-center font-bold text-2xl">Services Offered: </h1>
-        <div className="choose-us-container md:flex px-6 py-8  mt-6 items-center  space-x-4 ">
-          <div className="choose-us-item flex items-center justify-around  space-x-10 md:space-x-6 p-6">
-            <FaChalkboardTeacher className="icons size-20" />
-            <h3 className="font-bold">
-            On Demand Trainning 
-              <br />
-              Get personalized guidance and support throughout your learning
-              journey.
-            </h3>
-          </div>
-          <div className="choose-us-item flex items-center justify-around space-x-6 p-6">
-            <GrPersonalComputer className="icons size-20" />
-            <h3 className="font-bold">
-              Flexible Learning:
-              <br />
-              Fit learning into your busy schedule with flexible deadlines.
-            </h3>
-          </div>
-          <div className="choose-us-item flex items-center justify-around space-x-6 p-6 ">
-            <IoBookSharp className="icons size-20" />
-            <h3 className="font-bold">
-              Comprehensive Resources
-              <br />
-              Enjoy interactive tutorials, hands-on exercises, and real-world
-              examples.
-            </h3>
-          </div>
-          <div className="choose-us-item flex items-center justify-around space-x-6 p-6">
-            <LiaCertificateSolid className="icons size-20" />
-            <h3 className="font-bold">
-              Certification:
-              <br />
-              Earn certificates to showcase your new skills and enhance your
-              resume.
-            </h3>
-          </div>
+      <h1 className="text-center font-bold text-2xl">Services Offered: </h1>
+      <div className="choose-us-container  md:flex flex-wrap justify-around mt-6 items-center space-y-6">
+        <div className="testimonial-card p-10 rounded-lg flex flex-col items-center space-y-4">
+        <FaChalkboardTeacher className="icons size-20 items-center" />
+        <div>
+        <h3 className="font-bold">On Demand Trainning:</h3>
+        <p>We provides immediate access to a wide variety of courses
+        <br/>
+         that you can take at your own pace.<br/>
+        Designed to fit into your busy schedule.
+        </p>
+        
         </div>
+        </div>
+        
+        
+        <div className="testimonial-card p-10 rounded-lg flex flex-col items-center space-y-4">
+        <GrPersonalComputer className="icons size-20" />
+        <div>
+        <h3 className="font-bold">Recurring Training:</h3>
+        <p>Ideal for businesses and individuals seeking continuous<br/>
+        improvement and mastery over time, providing consistent<br/>
+        refreshers and updates on key topics.</p>
+        </div>
+        
+        
+        </div>
+        <div className="testimonial-card p-10 rounded-lg flex flex-col items-center space-y-4">
+        <IoBookSharp className="icons size-20" />
+        <div>
+        <h3 className="font-bold">Pre-Recorded Trainings:</h3>
+        <p>With structured lessons and comprehensive materials,you<br/>
+           can revisit and review topics as needed,<br/>
+           ensuring thorough understanding and retention.</p>
+        </div>
+        </div>
+        <div className="testimonial-card p-10 rounded-lg flex flex-col items-center space-y-4">
+        <LiaCertificateSolid className="icons size-20" />
+        <div>
+        <h3 className="font-bold">1 on 1 Training:</h3>
+        <p>With 1 on 1 Training, you receive personalized<br/>
+           attention and tailored instruction from our expert trainers.<br/>
+           Perfect for those who want to focus on specific areas of interest</p>
+        </div>
+        </div>
+      </div>
+
       </div>
       <div className="container mx-auto my-40">
         <h1 className="text-center font-bold text-2xl">Our Courses</h1>
-        <div className="courses-container md:flex items-center justify-between">
-        <div className="flex flex-col items-center">
-          <img src="https://1000logos.net/wp-content/uploads/2022/08/Microsoft-SharePoint-Logo.png" className="md:w-60 md:h-64"/>
-          <Link to="/courses/sharepoint"  className="font-bold">Microsoft SharePoint</Link>
+        <div className="courses-container flex flex-col mt-12 md:flex-row items-center justify-between mt-12">
+        <div className="flex flex-col space-y-4 items-center">
+          <img src={sharepoint}/>
+          <Link to="/courses/sharepoint" className="font-bold">Microsoft SharePoint</Link>
         </div>
-        <div className="flex flex-col items-center">
-          <img src="https://images.squarespace-cdn.com/content/v1/62460a56418af8236d4f3fee/e00b4d15-e244-4d5c-976e-01aa54763133/powerautomate-small%406x.png" className="md:w-60"/>
+        <div className="flex flex-col space-y-4 items-center">
+          <img src={powerautomate}/>
           <Link to="/courses/powerautomate" className="font-bold">Microsoft Power Automate</Link>
         </div>
-        <div className="flex flex-col items-center">
-          <img src="https://play-lh.googleusercontent.com/hLl_pWy-rbQgEpBukZrRNvX8K0-Eh5j9IXQ0IK24nvPzLncmJrYgpohQk0BpQrJYg2M" className="md:w-60"/>
+        <div className="flex flex-col space-y-4 items-center">
+          <img src={powerapps}/>
           <Link to="/courses/powerapps" className="font-bold" >Microsoft Power Apps</Link>
         </div>
-        <div className="flex flex-col items-center">
-          <img src="https://i.pinimg.com/originals/7a/f2/1e/7af21eaf89a449831a1e12d640b54fae.png" className="md:w-60 md:h-64"/>
+        <div className="flex flex-col space-y-4 items-center">
+          <img src={powerbi} />
           <Link to="/courses/powerbi"  className="font-bold">Microsoft Power BI</Link>
         </div>
         </div>
@@ -137,62 +152,3 @@ function Home() {
 }
 
 export default Home;
-
-{
-  /* <section className="hero-section">
-      <div>
-        <h1>
-          Welcome to <span>PowerPro Academy</span>
-        </h1>
-        <h4>Empower Your Skills with Our Comprehensive Courses</h4>
-        <p className="welcome-msg">
-          PowerPro Academy offer a diverse range of courses designed to enhance{" "}
-          <br />
-          your skills and boost your career. Our expert instructors are
-          dedicated <br />
-          to providing high-quality education that is accessible and practical.
-          <br /> Whether you're looking to improve your professional skills or
-          explore new interests,
-          <br /> we have the right course for <span>you.</span>
-        </p>
-        <a className="start-btn" href="https://forms.office.com/pages/responsepage.aspx?id=EeE0QF5AFEWcUOAwYgqu_WbD0_OTVQ5GkKF2vVltsHxUQ1hSWFFCVEZHOFNFV0pSUDNFVk9PRUg1Ty4u" target="blank">Get Started</a>
-      </div>
-      <div>
-        <img src="https://empyreanit.com.au/wp-content/uploads/2023/11/Power-platform.png" />
-      </div>
-    </section>
-    <section className="choose-us-section">
-      <h1>Why Choose Us?</h1>
-      <div className="choose-us-container">
-      <div className="choose-us-item">
-      <FaChalkboardTeacher className="icons"/>
-      <h3>Expert Instructors<br/>
-      Get personalized guidance and support throughout your learning journey.
-</h3>
-      </div>
-      <div className="choose-us-item">
-      <GrPersonalComputer className="icons"/>
-      <h3>Flexible Learning:<br/>
-      Fit learning into your busy schedule with flexible deadlines.
-</h3>
-      </div>
-      <div  className="choose-us-item">
-        <IoBookSharp className="icons"/>
-        <h3>Comprehensive Resources<br/>
-        Enjoy interactive tutorials, hands-on exercises, and real-world examples.</h3>
-      </div>
-      <div  className="choose-us-item">
-      <LiaCertificateSolid className="icons"/>
-      <h3>Certification:<br/>
-Earn certificates to showcase your new skills and enhance your resume.</h3>
-      <h3>
-
-      </h3>
-      </div>
-      </div>
-      <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-      
-    </section> */
-}
