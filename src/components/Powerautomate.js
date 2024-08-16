@@ -2,7 +2,7 @@ import React from 'react'
 import { GoGoal } from "react-icons/go";
 
 import Resources from "./Resources";
-import powerautomate from "../components/image/icons8-microsoft-power-automate-2020-96.png";
+import powerautomate from "../components/image/power_automate_header.png";
 
 function Powerautomate() {
   return (

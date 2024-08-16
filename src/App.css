@@ -7,6 +7,7 @@ body{
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+
 .logo{
   font-weight: 900;
   font-size: xx-large;
@@ -123,22 +124,38 @@ nav a.active {
 .card-container {
   padding: 2px 16px;
 }
-.choose-us-container.mt-6,.testimonial_parent {
+.choose-us-container.mt-6 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 0.6fr));
   gap: 4rem;
 }
 
 @media (max-width: 768px) {
-  .choose-us-container.mt-6,.testimonial_parent {
+  .choose-us-container.mt-6{
     display: flex;
     flex-direction: column;
     gap: 2rem; 
     place-items: center;
   }
 }
+.testimonials_container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 0.6fr)); /* Adjust size as needed */
+  gap: 4rem; /* Adjust space between cards */
+}
+
+@media (max-width: 768px) {
+  .testimonials_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}
+
 #card-img {
   width: 500px; /* Adjust width as needed */
+  height: 300px;
   object-fit: cover; /* Ensure the image covers the entire container */
 }
 

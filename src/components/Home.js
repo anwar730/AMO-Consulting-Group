@@ -6,12 +6,12 @@ import { LiaCertificateSolid } from "react-icons/lia";
 import { FaQuoteLeft } from "react-icons/fa";
 import '../App.css'
 import { Link } from "react-router-dom";
-import sharepoint from "../components/image/icons8-sharepoint-96.png";
+import sharepoint from "../components/image/sharepoint_logo.png";
 import powerplatform from "../components/image/Power-platform.png"
-import powerapps from "../components/image/icons8-microsoft-power-apps-96.png";
-import powerbi from "../components/image/icons8-power-bi-2021-96.png";
-import powerautomate from "../components/image/icons8-microsoft-power-automate-2020-96.png";
-import Powerbi from "./Powerbi";
+import powerapps from "../components/image/power_apps_logo.png";
+import powerbi from "../components/image/power_bi_logo.png";
+import powerautomate from "../components/image/power-automate-logo.png";
+
 
 function Home() {
   return (
@@ -42,7 +42,7 @@ function Home() {
           </div>
         </div>
         <div className="hero-img mt-10">
-          <img src={powerplatform} />
+          <img src={powerplatform} alt="hero-image"/>
         </div>
       </div>
      
@@ -96,9 +96,7 @@ function Home() {
       </div>
       <section id="services" className="container relative mx-auto p-4 pb-36 mt-32">
   <div className='flex flex-col items-center'>
-    <h2 className="text-center font-semibold text-primary text-dark sm:text-1xl">
-      What We Offer
-    </h2>
+  <h1 className="text-center font-bold text-2xl pb-8">Courses</h1>
     
   </div>
 
@@ -197,39 +195,41 @@ function Home() {
   </div>
 </section>
 
-      <div className="testimonial_parent container p-6 mx-auto my-40">
-        <h1 className="text-center font-bold text-2xl">Testimonials:</h1>
-        <div className="testimonials_container md:flex flex-wrap justify-around mt-6 items-center  space-x-4">
-            <div className="testimonial-card bg-lightYellow p-10 rounded-lg mt-6">
-              <div className="flex items-center space-y-4 space-x-4">
-              <FaQuoteLeft className="size-12"/> 
-            <h1 className="text-xl font-bold"> Shelly S. - Power BI attendee</h1>
-              </div>
-            <p className="mt-5">TThis class was really terrific. I have already done a little<br/>work with Power BI, but I learned a ton. They tailored it<br/> to all levels. Honestly, probably the best online class I<br/>have ever had.</p>
-            </div>
-            <div className="testimonial-card bg-lightBlue p-10 rounded-lg  mt-6">
-              <div className="flex items-center space-y-4 space-x-4 ">
-              <FaQuoteLeft className="size-12"/> 
-            <h1 className="text-xl font-bold">Gene M. - Virtual Conference attendee</h1>
-              </div>
-            <p className="mt-5">Overall, I love the virtual conference that was put together. The<br/> speakers prove they are experts in their related subjects. I learned<br/> many things; from fine-tuning my skills to stuff I never would have<br/>considered or thought of.</p>
-            </div>
-            <div className="testimonial-card bg-lightred p-10 rounded-lg  mt-6">
-              <div className="flex items-center space-y-4 space-x-4">
-              <FaQuoteLeft className="size-12"/> 
-            <h1 className="text-xl font-bold">Perry C. - Power Apps student</h1>
-              </div>
-            <p className="mt-5">The instructor for this course was so easy to follow and understand. I<br/> found the content to be well organized and well-focused on the<br/> point. It should be used as a model for other courses. I watched <br/>every minute of it, and I am a 20-year veteran of Power Apps.</p>
-            </div>
-            <div className="testimonial-card bg-lightgreen p-10 rounded-lg  mt-6">
-              <div className="flex items-center space-y-4 space-x-4">
-              <FaQuoteLeft className="size-12"/> 
-            <h1 className="text-xl font-bold">David H. - Power Automate student</h1>
-              </div>
-            <p className="mt-5">Excellent course and great instructor. Helped me<br/>understand the more advanced concepts. The examples<br/>can be applied at work immediately which is key to<br/>showing management the value of these courses.</p>
-            </div>
-        </div>
+<section id="testimonials" className="testimonial_parent container p-6 mx-auto my-40">
+  <h1 className="text-center font-bold text-2xl">Testimonials:</h1>
+  <div className="testimonials_container mt-6">
+    
+    <div className="testimonial-card bg-lightBlue p-10 rounded-lg mt-6">
+      <div className="flex items-center space-x-4">
+        <FaQuoteLeft className="size-12"/> 
+        <h1 className="text-xl font-bold">Gene M. - Virtual Conference attendee</h1>
       </div>
+      <p className="mt-5">Overall, I love the virtual conference that was put together. The speakers prove they are experts in their related subjects. I learned many things; from fine-tuning my skills to stuff I never would have considered or thought of.</p>
+    </div>
+    <div className="testimonial-card bg-lightYellow p-10 rounded-lg mt-6">
+      <div className="flex items-center space-x-4">
+        <FaQuoteLeft className="size-12"/> 
+        <h1 className="text-xl font-bold">Shelly S. - Power BI attendee</h1>
+      </div>
+      <p className="mt-5">This class was really terrific. I have already done a little work with Power BI, but I learned a ton. They tailored it to all levels. Honestly, probably the best online class I have ever had.</p>
+    </div>
+    <div className="testimonial-card bg-lightred p-10 rounded-lg mt-6">
+      <div className="flex items-center space-x-4">
+        <FaQuoteLeft className="size-12"/> 
+        <h1 className="text-xl font-bold">Perry C. - Power Apps student</h1>
+      </div>
+      <p className="mt-5">The instructor for this course was so easy to follow and understand. I found the content to be well organized and well-focused on the point. It should be used as a model for other courses. I watched every minute of it, and I am a 20-year veteran of Power Apps.</p>
+    </div>
+    <div className="testimonial-card bg-lightgreen p-10 rounded-lg mt-6">
+      <div className="flex items-center space-x-4">
+        <FaQuoteLeft className="size-12"/> 
+        <h1 className="text-xl font-bold">David H. - Power Automate student</h1>
+      </div>
+      <p className="mt-5">Excellent course and great instructor. Helped me understand the more advanced concepts. The examples can be applied at work immediately which is key to showing management the value of these courses.</p>
+    </div>
+  </div>
+</section>
+
     </>
   );
 }

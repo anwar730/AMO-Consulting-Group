@@ -2,7 +2,7 @@ import React from 'react'
 import { GoGoal } from "react-icons/go";
 
 import Resources from "./Resources";
-import powerapps from "../components/image/icons8-microsoft-power-apps-96.png";
+import powerapps from "../components/image/power_apps_header.png";
 
 function Powerapps() {
   return (
@@ -36,7 +36,8 @@ function Powerapps() {
         <div>
           <img
             src={powerapps}
-            className="h-96 rounded-lg"
+            className="h-80 rounded-lg"
+            alt='power-apps-image'
           />
         </div>
       </div>
