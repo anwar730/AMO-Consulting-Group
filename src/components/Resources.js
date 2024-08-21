@@ -32,7 +32,7 @@ function Resources() {
       <LiaCertificateSolid className="text-4xl mb-4 mx-auto" />
       <h2 className="font-bold text-xl mb-2 text-center">Certification:</h2>
       <p className="mb-2 text-center">Earn a certificate upon successful completion.</p>
-      <p className="text-center">Showcase your SharePoint skills to potential employers.</p>
+      <p className="text-center">Showcase your  skills to potential employers.</p>
     </div>
   </div>
 </div>
