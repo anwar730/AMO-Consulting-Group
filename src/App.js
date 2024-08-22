@@ -10,11 +10,13 @@ import Powerapps from './components/Powerapps';
 import Powerbi from './components/Powerbi';
 import Powerautomate from './components/Powerautomate';
 import Sharepoint from './components/Sharepoint';
+import ScrollBar from './components/ScrollBar';
 
 function App() {
   return (
     <Router>
       <NavBar />
+      <ScrollBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses/powerapps" element={<Powerapps/>}/>

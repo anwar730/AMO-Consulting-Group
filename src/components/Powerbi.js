@@ -9,7 +9,7 @@ function Powerbi() {
     <>
       <div className="container p-6 mx-auto  my-24 flex items-center justify-between  md:flex-row flex-col-reverse ">
         <div>
-          <h1 className="font-bold text-2xl py-4">Microsoft Power Bi</h1>
+          <h1 className="font-bold text-2xl py-4">Microsoft Power BI</h1>
           <p>
           Master the art of data analysis and visualization with Microsoft Power BI.
             <br /> This course covers data collection, cleaning, and transformation,
