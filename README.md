@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# PowerPro Academy
+ ## By Anwar Ismail
+ 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Screenshot
+![Screenshot from 2024-08-23 00-45-47](https://github.com/user-attachments/assets/92747c3b-0d6c-4ec7-88c0-6794c2e51f79)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+ ## Table of Content
+ - [Description](#description)
+ - [Features](#features)
+ - [Requirements](#requirements)
+ - [Installation Process](#installation-process)
+ - [Live Link](#live-link)
+ - [Technology Used](#technology-used)
+ - [Licence](#licence)
+ ## Description
+ <p>Power Pro is a comprehensive online learning platform designed to offer specialized training in Microsoft Power Platform technologies, including Microsoft SharePoint, Power Automate, Power Apps, and Power BI. </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1.Comprehensive Course Library:
 
-### `npm test`
+Access a wide range of courses focused on Microsoft Power Platform, including SharePoint, Power Automate, Power Apps, and Power BI.
+Courses are tailored to various skill levels, from beginners to advanced users.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2.Flexible Learning Options:
 
-### `npm run build`
+On-Demand Training: Learn at your own pace with immediate access to course materials.
+Recurring Training: Participate in scheduled sessions for continuous learning and skill development.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3.Certification Programs:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Earn certificates upon course completion to showcase your expertise and enhance your resume.
+Certifications are recognized in the industry, helping you demonstrate proficiency in specific Power Platform tools.
+4.Interactive Resources:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Engage with step-by-step tutorials, video lessons, and hands-on labs to apply your learning in real-world scenarios.
+Access to a supportive community forum for discussion, insights, and instructor support.
 
-### `npm run eject`
+ ###  Requirements
+ * Access to  a computer, smartphone or other devices
+ * Access to internet
+ ### Installation Process
+ ****
+* Clone to this repo : git@github.com:anwar730/microsoft_platform.git
+* Unzip the downloaded files in a folder of choice.
+* Open the index file from the zipped file with any browser.
+ ****
+### Live Link
+- Click this link to view the live application: https://microsoft-platform.vercel.app
+### Technology Used
+* HTML - which was used to develop the structure of the pages.
+* CSS - which was used to style the User Interface.
+* JavaScript - which was used to make the page responsive.
+[Go Back to the top](#PowerPro Academy)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Licence
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+MIT License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Copyright (c) 2024 Anwar Ismail
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Learn More
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
