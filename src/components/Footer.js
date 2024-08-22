@@ -5,7 +5,7 @@ import { PiAddressBookFill } from "react-icons/pi";
 import { FaInstagram } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import logo from "./image/image1.png"
+
 
 function Footer() {
   return (
