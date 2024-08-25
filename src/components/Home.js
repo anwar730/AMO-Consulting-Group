@@ -19,7 +19,7 @@ function Home() {
         <div className="sm:mt-12 flex flex-col">
           <h1 className="font-bold text-3xl py-4 hidden md:block">
             Welcome to{" "}
-            <span className="text-blue font-extrabold">PowerPro Academy.</span>
+            <span className="text-blue font-extrabold">AMO CONSULTING GROUP.</span>
           </h1>
           <h4 className="font-bold text-2xl py-4">
             Empower Your Skills with Our Comprehensive Courses.
@@ -27,8 +27,7 @@ function Home() {
           <p className="welcome-msg ">
             Enhance your skills with practical, high-quality courses from expert
             instructors.
-            <br /> Advance your career or explore new interests with PowerPro
-            Academy.
+            <br /> Advance your career or explore new interests with AMO Consulting Group
           </p>
           <div className="flex justify-center md:block">
             <a
