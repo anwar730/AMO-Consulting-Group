@@ -74,7 +74,7 @@ function Footer() {
       
       
      
-      <h1 className='text-center mt-12'>© 2024 AMO Consulting GGroup. All rights reserved.</h1>
+      <h1 className='text-center mt-12'>© 2024 AMO Consulting Group. All rights reserved.</h1>
     </div>
     
     </>
