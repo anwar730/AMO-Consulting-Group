@@ -1,4 +1,4 @@
-# PowerPro Academy
+# AMO Consulting Group
  ## By Anwar Ismail
  
 
@@ -16,7 +16,7 @@
  - [Technology Used](#technology-used)
  - [Licence](#licence)
  ## Description
- <p>Power Pro is a comprehensive online learning platform designed to offer specialized training in Microsoft Power Platform technologies, including Microsoft SharePoint, Power Automate, Power Apps, and Power BI. </p>
+ <p>AMO Consulting Group is a comprehensive online learning platform designed to offer specialized training in Microsoft Power Platform technologies, including Microsoft SharePoint, Power Automate, Power Apps, and Power BI. </p>
 
 ## Features
 
